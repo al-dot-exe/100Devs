@@ -1,0 +1,98 @@
+Second class from the 100 Devs bootcamp
+
+What makes a programming language turing complete?
+... 1:10:00
+
+What are the 3 big reasons for using the appropriate html tags?
+...1:29:00
+
+
+html tag q's?
+
+  What are the <h#> </h#> tags?
+  ...01:34:00
+
+  How many h1 tags should we have?
+  ...
+
+  What is the <span> <span> tag?
+  ...
+
+  When do we use the <span> tag over <p>?
+  ...
+
+  What is the <p> </p> tag?
+  ...
+
+  What is the <pre> <pre> tag?
+  ...
+
+  Why don't we use <pre> tags?
+  ...
+
+  What is the <br> tag?
+  ...
+
+  What is the <hr> tag?
+  ...
+
+  What is the <em> </em> tag?
+  ...
+
+  What is the <strong> </strong> tag?
+  ...
+
+  What is the <ol> </ol> tag? What are some real world examples?
+  ...
+
+  What is the <ul> </ul> tag? What are some real world examples?
+  ...
+
+  What is the <ul> </ul> tag?
+  ...
+
+  What is the <a></a> tag?
+  ...
+
+  What is the <a></a> tag?
+  ...
+
+Containing element q's 1:35:00
+
+  What is the <div></div> tag?
+  ...
+
+  What is the <section></section> tag?
+  ...
+
+  What is the <article></article> tag?
+  ...
+
+  What is the <aside></aside> tag?
+  ...
+
+  What is the <header></header> tag?
+  ...
+
+  What is the <footer></footer> tag?
+  ...
+
+Deprecated elements q's 2:00:00
+
+  What is the <blink></blink> tag?
+  ...
+
+  What is the <marquee></marquee> tag?
+  ...
+
+  What is the <b></b> tag?
+  ...
+
+  What is the <i></i> tag?
+  ...
+
+
+Why don't <img> tags need closing tags? 2:35:00
+What does the attribute href allow you to do?
+...
+

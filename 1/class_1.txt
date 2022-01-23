@@ -1,0 +1,59 @@
+First Day
+
+The Agenda for the course
+
+- Materials always on Discord (located in follow along materials channel)
+- Checking in: Every class like and retweet to check in for attendance
+- Twitter will be the networking tool to get a job.
+- Network with 3 individuals in tech and 2 coffee chats. Every week starting week 3
+- Homework always due a week later first google forms and then github
+- Coding Challenge every day once we learn javascript.
+- Learning, html, css, javascript, nodejs, reactjs, and mongodb
+
+Study Q's
+What are the two study methods that are most effective? Why?
+...
+
+How much do we forget after an hour from learning a concept?
+...
+
+How large is the jump in retention after recalling something just once?
+...
+
+Why create your own Anki cards and not use someone elses's?
+...
+
+
+What are the 3 things of successful students?
+
+Internet Study Q's
+What is the Internet? What are the two computer roles on the internet?
+...
+
+What type of files do web browsers open?
+...
+
+What language powers the content of a website?
+...
+
+What language powers the style(color, positioning, etc.) of a website?
+...
+
+What language powers the behavior(button movement, dragging, etc.) of a website?
+...
+
+What is a the typical bounce rate for data to get sent across the wire?
+...(seconds ;))
+
+What is the role of the DNS?
+...
+
+What protocol allows us to make requests and responses on the internet?
+...
+
+HTML Q's
+What is HTML5? How is it different than HTML?
+...(5 key things offered now)
+
+What is the GOLDEN Rule of Web development? Why is it important? SOC
+...
