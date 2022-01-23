@@ -6,7 +6,6 @@ What makes a programming language turing complete?
 What are the 3 big reasons for using the appropriate html tags?
 ...1:29:00
 
-
 html tag q's?
 
   What are the <h#> </h#> tags?
@@ -48,12 +47,6 @@ html tag q's?
   What is the <ul> </ul> tag? What are some real world examples?
   ...
 
-  What is the <ul> </ul> tag?
-  ...
-
-  What is the <a></a> tag?
-  ...
-
   What is the <a></a> tag?
   ...
 
@@ -93,6 +86,8 @@ Deprecated elements q's 2:00:00
 
 
 Why don't <img> tags need closing tags? 2:35:00
+...
+
 What does the attribute href allow you to do?
 ...
 
