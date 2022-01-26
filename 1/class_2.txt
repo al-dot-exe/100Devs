@@ -1,6 +1,6 @@
 Second class from the 100 Devs bootcamp
 
-What makes a programming language turing complete?
+What makes a programming language different from a markup language?
 ... 1:10:00
 
 What are the 3 big reasons for using the appropriate html tags?
@@ -50,7 +50,7 @@ html tag q's?
   What is the <a></a> tag?
   ...
 
-Containing element q's 1:35:00
+Containing element q's 1:50:00
 
   What is the <div></div> tag?
   ...

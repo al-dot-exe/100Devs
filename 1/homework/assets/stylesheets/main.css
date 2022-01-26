@@ -1,0 +1,315 @@
+/*
+* ==================
+* Grid 
+* ==================
+*/
+
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;  
+    -ms-box-sizing: border-box;
+     box-sizing: border-box; 
+  }
+
+  .container,
+  .grid {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .container { 
+     padding-left: 30px;
+     padding-right: 30px;
+  }
+
+/*
+* ==================
+* Clearfix - no idea how this works, gotta read more on it.
+* ==================
+*/
+
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+  .group:after {
+    clear: both;
+  }
+  .group {
+    clear: both;
+    *zoom: 1;
+  }
+
+/*
+* ==================
+* Custom Styles 
+* ==================
+*/
+
+  body {
+    background: #293f50;
+    color: #888;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+/*
+* ==================
+* Rows
+* ==================
+*/
+
+  .row,
+  .row-alt {
+    min-width: 960px;
+  }
+
+  .row { 
+    background: #fff;
+    padding: 66px 0 44px 0;
+  }
+
+  .row-alt {
+    background: #cbe2c1;
+    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: -ms-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    padding: 44px 0 22px 0;
+  }
+
+/*
+* ==================
+* Typography 
+* ==================
+*/
+
+  h1, h3, h4, h5, p {
+    margin-bottom: 22px;
+  }
+
+  h1, h2, h3, h4 {
+    color: #648880;
+  } 
+
+  h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    line-height: 44px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  strong { 
+    font-weight: 400;
+  }
+
+  cite, em { 
+    font-style: italic;
+  }
+
+/*
+* ==================
+* Primary Header 
+* ==================
+*/
+
+  .logo {
+    float: left;
+    border-top: 4px solid #648880;
+    padding: 40px 0 22px 0;
+    font-size: 48px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    line-height: 44px;
+  } 
+
+  .tagline {
+    margin: 66px 0 22px 0;
+    text-align: right;
+  }
+
+/*
+* ==================
+* Primary Footer 
+* ==================
+*/
+
+  .primary-footer {
+    color: #648880;
+    font-size: 14px;
+    padding-bottom: 44px;
+    padding-top: 44px;
+  }
+
+  .primary-footer small {
+    float: left;
+    font-weight: 400;
+  }
+
+
+/*
+* ==================
+* Navigation 
+* ==================
+*/
+
+  .nav {
+    text-align: right;
+    font-weight: 400;
+  }
+
+  .primary-nav {
+    font-size: 15px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+  }
+
+  .secondary-nav {
+    font-size: 14px;
+    letter-spacing: .15px;
+  }
+
+/*
+* ==================
+* Links 
+* ==================
+*/
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  a:hover { 
+    color: #a9b2b9;
+  }
+
+  .primary-header a,
+  .primary-footer a { 
+    color: #fff,
+  }
+
+  .primary-header a:hover,
+  .primary-footer a:hover {
+    color: #648880;
+  }
+
+  p a {
+    border-bottom: 1px solid #dfe2e5;
+  }
+
+  .teaser a:hover h3 {
+    color: #a9b2b9;
+  }
+
+/*
+* ==================
+* Buttons 
+* ==================
+*/
+
+  .btn {
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0;
+  }
+
+  .btn-alt {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+  }
+  .btn-alt:hover {
+    background: #fff;
+    color: #648880;
+  }
+
+/*
+* ==================
+* Hero 
+* ==================
+*/
+
+  .hero {
+    color: #fff;
+    line-height: 44px;
+    padding: 22px 80px 66px 80px;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 36px;
+  }
+
+  .hero p { 
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+/*
+* ==================
+* Resuable Layout 
+* ==================
+*/
+
+  .col-1-3 {
+    width: 33.33%;
+  }
+
+  .col-2-3 {
+    width: 66.66%;
+  }
+
+  .col-1-3,
+  .col-2-3 {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .grid,
+  .col-1-3,
+  .col-2-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+/*
+* ==================
+* Leads 
+* ==================
+*/
+
+  .lead {
+    text-align: center;
+  }
+
+  .lead p {
+    font-size: 21px;
+    line-height: 33px;
+  }
+
