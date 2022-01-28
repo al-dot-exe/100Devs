@@ -1,0 +1,56 @@
+Active Recall Questions from Class 3 of 100 Devs
+
+What is a CDN? (images)
+...01:45:00
+
+Html tag Q's
+
+What are the names of the conditions we can add to opening tags
+...
+
+What is the <html> tag?
+...02:10:00
+
+What is a parent-child realtionship?
+...
+
+What is the <body> tag?
+...
+
+What tag contains the content that the user sees?
+...
+
+Why do we indent nested code?
+...02:15:00
+
+What is the <nav> tag?
+...02:20:00
+
+What is the <input> tag?
+...02:24:00
+
+What does the action attribute do for the <form> tag?
+...
+
+What are the 5 common input types listed for <form> tags?
+...
+
+Why did html5 introduce the different input types?
+...02:28:00
+
+What does the <label> tag do for forms? Why do we want this functionality?
+...
+
+What is the difference between <nav> tags and <ul> tags?
+...02:50:00
+
+Web Dev Q's
+
+What is Progressive Enhancement in web development?
+...02:32:00
+
+Why is Progressive Enhancement SO important?
+
+Why is it important to draw out a diagram of the website design?
+02:40:00
+
