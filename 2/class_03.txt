@@ -1,7 +1,7 @@
 Active Recall Questions from Class 3 of 100 Devs
 
 What is a CDN? (images)
-...01:45:00
+...01:55:00
 
 Html tag Q's
 
@@ -17,11 +17,12 @@ What is a parent-child realtionship?
 What is the <body> tag?
 ...
 
+
 What tag contains the content that the user sees?
 ...
 
 Why do we indent nested code?
-...02:15:00
+...02:16:00
 
 What is the <nav> tag?
 ...02:20:00
@@ -36,7 +37,7 @@ What are the 5 common input types listed for <form> tags?
 ...
 
 Why did html5 introduce the different input types?
-...02:28:00
+...02:29:00
 
 What does the <label> tag do for forms? Why do we want this functionality?
 ...
@@ -47,7 +48,7 @@ What is the difference between <nav> tags and <ul> tags?
 Web Dev Q's
 
 What is Progressive Enhancement in web development?
-...02:32:00
+...02:35:00
 
 Why is Progressive Enhancement SO important?
 
