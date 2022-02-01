@@ -24,7 +24,7 @@ body > div {
   position: relative;
    max-width: 95%; 
   max-height: 95%;
-  border: 5px solid rgba(72,205,49,255); 
+  border: 5px solid #48cd31;
   margin: 30px 25px 30px 25px;
 }
 /* clear fix  */
@@ -69,7 +69,7 @@ nav li:first-child {
   border-left: none;
 }
 a {
-  color: rgba(103,206,204,255);
+  color: #4acc9a;
 }
 
 /* 
