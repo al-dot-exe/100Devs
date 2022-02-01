@@ -1,0 +1,86 @@
+Active Recall questions from Class 04 of 100 Devs
+
+
+CSS Q's?
+
+Where does our CSS go?
+...00:41:00
+
+What are some exceptions to the rule of where css goes?
+...00:43:00 00:46:00
+
+What tag do we use to link our separate css files?
+...00:48:00
+
+What are the 2 main parts to a css rule?
+...00:57:00
+
+
+What two parts make up css declaration blocks?
+...00:55:00
+
+What does the selector tell us?
+...
+
+What two parts make up the css declaration?
+...
+
+What is the property in a css declaration?
+...
+
+What is the value in a css declaration?
+...
+
+What is the css cascade?
+...01:11:30
+
+What are the 4 ways to use color in css?
+...01:15:30
+
+What does the font-family property?
+...01:21:00
+
+What are the two steps to using a font in your website?
+...01:22:00
+
+What is the common last fallback font?
+...01:24:00
+
+Why do we not want to grab EVERY font weight listed?
+...01:26:00
+
+What's the property for underlining text?
+...01:35:20
+
+What are the 3 values needed to shorthand the border property?
+...01:48:20
+
+How do we target specific elements?
+..02:11:00
+
+What is a direct parent child relationship? How do we do it?
+...02:13:40
+
+What is the direct sibiling relationship? How do we do it?
+...02:16:40
+
+Why would you ever use a direct sibling?
+Find out somewhere! Not in Lecture.
+
+How would we create a selector for ids?
+...02:29:35
+
+How would we create a selector for classes?
+...02:31:20
+
+What are the 4 units for adding up specificity weight? How much is each unit worth?
+...02:33:00
+
+What is DRY code and how does the cascade assist us with that?
+...02:36:30
+
+Why do want to AVOID inline styling as much as possible?
+...02:41:30
+
+When would you EVER use !important?
+...02:44:35
