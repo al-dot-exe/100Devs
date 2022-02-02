@@ -1,1 +1,33 @@
 Active Recall Questions for class 5 of 100 Devs
+
+More css Q's
+
+What does putting space in between selector chains do?
+...02:30:30
+
+What parts of the box model would we consider truly part of the box?
+...02:43:20
+
+What does padding do?
+...02:49:35
+
+Why is the box model important?
+...02:52:40
+
+
+css layout Q's
+
+What happens when you float elements?
+...02:57:15
+
+What is the side effect of using floats?
+...02:58:00
+
+How do we get floating elements to sit next to each other?
+...03:00:10
+
+What does clearing a floating element mean?
+...03:18:15
+
+How do we tell the browser to ignore borders when calculating the width?
+...03:22:00

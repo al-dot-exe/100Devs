@@ -61,7 +61,7 @@ How do we target specific elements?
 What is a direct parent child relationship? How do we do it?
 ...02:13:40
 
-What is the direct sibiling relationship? How do we do it?
+What is the direct sibling relationship? How do we do it?
 ...02:16:40
 
 Why would you ever use a direct sibling?

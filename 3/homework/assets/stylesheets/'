@@ -21,10 +21,11 @@ body {
                 box-sizing: border-box;
 }
 body > div {
+  display: block;
    max-width: 95%; 
   max-height: 95%;
   border: 5px solid #48cd31;
-  margin: 30px 25px 30px 30px;
+  margin: 30px 25px 30px 25px;
 }
 /* clear fix  */
 div {
