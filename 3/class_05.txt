@@ -6,7 +6,7 @@ What does putting space in between selector chains do?
 ...02:30:30
 
 What parts of the box model would we consider truly part of the box?
-...02:43:20
+...
 
 What does padding do?
 ...02:49:35

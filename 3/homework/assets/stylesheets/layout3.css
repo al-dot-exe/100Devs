@@ -1,0 +1,23 @@
+* {
+  -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+          -ms-box-sizing: border-box;
+                box-sizing: border-box;
+}
+header,
+footer {
+  text-align: center;
+  height: 175px;
+  border: 1px solid red;
+  clear: both;
+}
+.col-1-4 section {
+  float: left;
+  width: 20%;
+  height: 700px;
+  border: 1px solid black;
+}
+.col-1-4 section.large-section {
+  width: 40%;
+}
+

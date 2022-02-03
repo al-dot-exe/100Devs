@@ -1,0 +1,26 @@
+/* * {  */
+/*   clear: both; */
+/* } */
+body {
+  max-width: 100%;
+  margin: 0;
+  /* overflow: auto; */
+  /* *zoom: 1; */
+}
+header, 
+footer {
+  height: 175px;
+  border: 1px solid black;
+}
+.lead {
+  height: 250px;
+  border: 1px solid black;
+}
+.off-grid section {
+  height: 300px;
+  border: 1px solid black;
+}
+.off-grid > .small-box {
+  float: left;
+  width: 35%;
+}
