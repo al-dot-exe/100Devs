@@ -1,26 +1,29 @@
-/* * {  */
-/*   clear: both; */
-/* } */
+* { 
+  box-sizing: border-box;
+}
 body {
-  max-width: 100%;
-  margin: 0;
   /* overflow: auto; */
   /* *zoom: 1; */
 }
 header, 
+footer,
+.lead,
+.off-grid section{
+  border: 1px solid black;
+}
+header,
 footer {
   height: 175px;
-  border: 1px solid black;
+  clear: both;
 }
 .lead {
   height: 250px;
-  border: 1px solid black;
 }
 .off-grid section {
-  height: 300px;
-  border: 1px solid black;
-}
-.off-grid > .small-box {
   float: left;
-  width: 35%;
+  width: 70%;
+  height: 300px;
+}
+.off-grid .small-box {
+  width: 30%;
 }
