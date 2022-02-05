@@ -7,17 +7,33 @@
 header,
 footer {
   text-align: center;
-  height: 175px;
+  height: 100px;
   border: 1px solid red;
   clear: both;
 }
 .col-1-4 section {
   float: left;
   width: 20%;
-  height: 700px;
+  height: 300px;
   border: 1px solid black;
 }
 .col-1-4 section.large-section {
   width: 40%;
 }
 
+
+@media screen and (max-width: 600px) {
+    section {
+    background: green;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .col-1-4 section {
+    background: blue;
+    width: 33%;
+  }
+  .large-section {
+    display: none;
+  }
+}

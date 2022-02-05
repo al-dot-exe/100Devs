@@ -1,0 +1,43 @@
+Active Recall Q's from class 7 of 100 Devs
+
+CSS Responsivesness Q's
+
+What are the 3 important ideas that make a site responsive?
+...02:42:00
+
+What is fluidity in css design?
+...
+
+What is elasticity in css design?
+...02:43:30
+
+
+What is content decision in css design?
+...02:51:30
+
+What is the most important information to display on mobile devices?
+...
+
+How do we make content decisions in css?
+...
+
+Why is the em unit important?
+...02:45:00
+
+What is the problem with em's?
+...02:47:00
+
+What is the solution to using em's?
+...02:47:50
+
+How can accomodate font sizing for accesibility devices?
+...02:51:00
+
+What does screen mean on a media query rule?
+...02:56:45
+
+What do we need to add to our html document to ensure sites are responsive?
+...03:04:00
+
+What is the magic of flexbox?
+...03:07:38
