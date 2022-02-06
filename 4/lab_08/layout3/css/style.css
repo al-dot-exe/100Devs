@@ -30,13 +30,37 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+  background: black;
+  color: white;
+  height: 55px;
 }
-
-footer {
-
+nav * {
+  color: white;
+  float: left;
+  width: 10%;
+  display: block;
 }
-
+nav ul {
+  width: 50%;
+}
+nav form input {
+  width: 100%;
+}
+main + section > section {
+  width: 33.3333%; 
+  float: left;
+}
+main > section {
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+main section + section section {
+  float: left;
+  width: 50%;
+  height: 250px; 
+  border: 1px solid black;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
