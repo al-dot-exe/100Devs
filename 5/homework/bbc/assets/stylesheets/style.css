@@ -21,32 +21,108 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
-}
+/* body main { */
+/*   padding-bottom: 50px; */
+/* } */
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+/* HEADER */
 header {
   background: black;
   color: white; 
-  height: 20px; 
-  width: 100%;
+  height: 40px; 
 }
 header > * {
   float: left;
+  border-left: 1px solid gray;
+}
+header > :not(nav) {
+  width: 10%;
 }
 header nav {
-  width: 80%;
+  text-align: center;
+  width: 70%;
 }
+
 nav ul li {
   float: left;
   margin-left: 5%;
+}
+header a {
+  color: white;
+}
+
+/* MAIN */
+main > section { 
+  float: left;
+  width: 100%;
+}
+section > h4,
+section > span{
+  float: left;
+  width: 50%;
+  margin: 30px 0 5px 0;
+  border: 1px solid black;
+}
+section > h4 + span {
+  text-align: right;
+}
+.headline,
+.sidelines {
+  background: gray;
+  color: white; 
+  text-align: left;
+  width: 50%;
+  height: 600px;
+  border: 1px solid black;
+}
+.sidelines > article {
+  background: brown;
+  float: left;
+  width: 50%;
+  height: 300px; 
+  padding: 50px;
+  border: 10px solid white;
+}
+.headline > *,
+.sidelines > article * {
+  position: relative;
+  top: 75%;
+}
+
+/* NEWS SECTION */
+.news > * {
+  clear: left;
+}
+.news img {
+  border: 1px solid black;
+}
+.news article {
+  background: green;
+  float: left;
+  width: 33.33%; 
+  height: 300px;
+  padding: 10px;
+  border: 5px solid white;
+}
+.news article > * {
+  position: relative;
+  top: 55%;
+}
+.news article h2 {
+  padding: 10px 0 20px 0;
 }
 
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/* Small Header Styling */
+h6 {
+  margin-top: 10px;
+}
