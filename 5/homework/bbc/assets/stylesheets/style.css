@@ -1,30 +1,29 @@
 /* Box Model Hack */
 * {
-     box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
-/* body main { */
-/*   padding-bottom: 50px; */
-/* } */
-
+body > :not(header) {
+  margin: 0 10%;
+}
 
 /******************************************
 /* LAYOUT
@@ -33,8 +32,8 @@
 /* HEADER */
 header {
   background: black;
-  color: white; 
-  height: 40px; 
+  color: white;
+  height: 40px;
 }
 header > * {
   float: left;
@@ -56,17 +55,16 @@ header a {
   color: white;
 }
 
-/* MAIN */
-main > section { 
+/* Headlines */
+main > section {
   float: left;
   width: 100%;
 }
 section > h4,
-section > span{
+section > span {
   float: left;
   width: 50%;
   margin: 30px 0 5px 0;
-  border: 1px solid black;
 }
 section > h4 + span {
   text-align: right;
@@ -74,7 +72,7 @@ section > h4 + span {
 .headline,
 .sidelines {
   background: gray;
-  color: white; 
+  color: white;
   text-align: left;
   width: 50%;
   height: 600px;
@@ -84,7 +82,7 @@ section > h4 + span {
   background: brown;
   float: left;
   width: 50%;
-  height: 300px; 
+  height: 300px;
   padding: 50px;
   border: 10px solid white;
 }
@@ -98,31 +96,72 @@ section > h4 + span {
 .news > * {
   clear: left;
 }
-.news img {
-  border: 1px solid black;
-}
 .news article {
-  background: green;
   float: left;
-  width: 33.33%; 
-  height: 300px;
-  padding: 10px;
-  border: 5px solid white;
+  width: 33.33%;
+  height: 500px;
+  padding: 15px 0 0 1%;
+}
+.news > section article:first-child {
+  padding-left: 0;
 }
 .news article > * {
   position: relative;
-  top: 55%;
 }
 .news article h2 {
   padding: 10px 0 20px 0;
 }
-
+.news img {
+  width: 100%;
+}
+.news p {
+  padding-bottom: 4%;
+}
+.news h6 {
+  margin-top: 10px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
-/* Small Header Styling */
-h6 {
-  margin-top: 10px;
+/* 
+* FONT Styling 
+*/
+
+/* Root First */
+html {
+  font-size: 85%;
+  font-family: "Roboto", sans-serif;
+}
+/* General */
+body h4 {
+  color: #525252;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+/* Link Font */
+a {
+  text-decoration: none;
+}
+/* Headlines Section */
+
+/* News Secton */
+.news h4 {
+  padding-left: 10px;
+  border-left: 5px solid #e91901;
+}
+.news h2 {
+  color: #2b2b2b;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+.news p {
+  color: #6b6b6b;
+  font-size: 1.15rem;
+}
+.news h6 {
+  color: #9f9f9f;
+  padding-left: 7px;
+  border-left: 3px solid #e91901;
 }
