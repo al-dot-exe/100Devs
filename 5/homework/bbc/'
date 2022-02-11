@@ -30,9 +30,7 @@
 @media (min-width: 1296px) {
   body > :not(header),
   header > nav {
-    width: 1270px;
-    padding: 0 10px;
-    margin: 0 auto;
+    margin: 0 14%;
   }
 }
 body > :not(header) {
@@ -56,7 +54,6 @@ header {
   height: 40px;
 }
 header > nav {
-  padding: 0;
   height: 40px;
 }
 header nav ul li {
@@ -71,6 +68,7 @@ header nav ul .sign-in {
   width: 15%;
   border: 0;
 }
+
 header nav ul li > * {
   display: block;
   padding-top: 10px;
@@ -81,30 +79,17 @@ header nav ul li:first-child {
 }
 header nav ul li.logo a {
   padding-top: 0px;
-  margin-right: 5%;
+  margin-right: 60px;
 }
 header nav ul .sign-in a {
   float: left;
-  padding: 10px 0 0 2px;
+  padding: 10px 0 0 18px;
 }
 header nav ul .sign-in a.avatar {
   padding-top: 5px;
-  padding-left: 18px;
-}
-header nav ul .more {
-  margin-right: 3%;
 }
 header nav ul .search {
-  width: 17%;
-}
-header nav ul .search form {
-  width: 100%;
-  padding: 5px 0 2px 10px;
-}
-header nav ul .search input {
-  width: 100%;
-  height: 25px;
-  padding-bottom: 5px;
+  padding-left: 20px;
 }
 
 /* Headlines Layout */
@@ -116,11 +101,11 @@ main > section {
   width: 100%;
 }
 main section > h4,
-main section > span {
+section > span {
   float: left;
   width: 50%;
 }
-main section > span {
+section > span {
   text-align: right;
 }
 section.headline,
@@ -128,13 +113,14 @@ section.sidelines {
   color: white;
   text-align: left;
   height: 325px;
-  width: 49.5%;
 }
 section.headline {
-  margin-right: .5%;
+  width: 50%;
+  margin-right: 0;
 }
 section.sidelines {
-  margin-left: .5%;
+  width: 49%;
+  margin-left: 2%;
 }
 .headline div {
   background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
@@ -258,16 +244,10 @@ h6 {
   padding-left: 7px;
   border-left: 3px solid #e91901;
 }
-.sidelines article:nth-child(odd) h6 {
-  border-color: #4992bf;
-}
-.sidelines article:last-child h6 {
-  border-color: #2e2655;
-}
 
 /* Navigation Section */
 header nav {
-  font-size: 1rem;
+  font-size: 1.05em;
   font-weight: 500;
 }
 
@@ -275,10 +255,8 @@ header nav {
 main * {
   color: #fefdfd;
 }
-main section span {
-  font-size: 1.75rem;
-  font-weight: 400;
-  color: #a1a1a1;
+main h6 {
+
 }
 .headline div * {
   filter: brightness(100%);
@@ -288,20 +266,20 @@ main section span {
   font-weight: 500;
 }
 .headline p {
-  font-size: 1.15rem;
+  font-size: 1.15em;
   font-weight: 400;
 }
 /* Sidelines Section */
 .sidelines article h3 {
   filter: brightness(100%);
-  font-size: 1.15rem;
+  font-size: 1.15em;
   font-weight: 700;
 }
 
 /* News Secton */
 .news h4 {
   padding-left: 10px;
-  border-left: 5px solid #e91901;
+  border-left: 3px solid #e91901;
 }
 .news h2 {
   color: #2b2b2b;
@@ -315,3 +293,5 @@ main section span {
 .news h6 {
   color: #9f9f9f;
 }
+
+/* EXTRA STYLING DETAILS */
