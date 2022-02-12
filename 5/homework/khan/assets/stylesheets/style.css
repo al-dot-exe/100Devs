@@ -20,74 +20,242 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+/* Tablet first */
+
+/* This one doesn't work with main coming first! Why? */
+/* @media screen and (max-width: 1028px) { */
+/*    main .desktop-nav { */
+/*     display: none; */
+/*   } */
+/* } */
+
+@media screen and (max-width: 1028px) {
+  .desktop-btn-list {
+    display: none;
+  }
+}
+@media screen and (max-width: 759px) {
+   .desktop-nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 759px) {
+  .desktop-only {
+    display: none;
+  }
+}
+@media (min-width: 760px) {
+ *.mobile-only.nav {
+    display: none;
+  }
+}
 body {
 }
-
+body > main {
+}
+.btn input{
+  background: #1e68ef;
+  text-align: center;
+  width: 95px;
+  height: 35px;
+  padding: 5px;
+  border: 1px solid #1e68ef;
+  border-radius: 5px;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
-/* HEADER  */
+/* HEADER LAYOUT */
+
+/* tablet header */
 header {
-  border-bottom: 1px solid gray;
-  height: 50px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #e5e5e6;
 }
 header nav {
-  margin: 0 10%;
-  text-align: center;
+  height: 55px;
+  /* border: 1px solid red; */
+  margin: 0 1%;
 }
 header nav > * {
-  position: relative;
-  top: 15px;
-  float: left;
-  width: 33.33%;
-}
-header nav ul {
-  border: 1px solid red;
-}
-nav ul li{
-  float: left;
-  width: 40%;
-}
-nav ul + a + ul li {
-  width: 33%;
-}
-
-/* MAIN SECTION */
-main > * {
   float: left;
   width: 50%;
-  height: 400px;
 }
-main > img {
-  border: 1px solid black;
+header nav ul.mobile-only {
+  /* border: 1px solid pink; */
+  height: 50px;
+  padding:1.5% 2.75% 0 0;
 }
-main section > * {
-  padding: 10px 0;
+header nav .logo * {
+  width: 180px;
+  height: 50px;
+  padding-top: 8px;
 }
-main section h1 {
-  margin-top: 5%;
+header nav .mobile-only li {
+  float: right;
 }
-main h1 {
-  font-size: 35px;
+header nav .mobile-only li:first-child {
+  padding-left: 35px;
 }
-main .btn-list {
-  padding-right: 50%;
-}
-main .btn-list li {
-  float: left;
-  width: 25%;
+
+
+/* desktop header */
+@media (min-width: 760px) {
+  header {
+    background: #fff;
+    height: 65px;
   }
 
+  header nav > * {
+    width: 33%;
+    /* height: 50px; */
+    padding: 1.5% 2.75% 0 0;
+    margin: 0 auto;
+  }
+  header nav > *:first-child {
+    position: relative;
+    /* top: 10%; */
+    right: 2%;
+    padding-left: 5%;
+  }
+  header nav > *:first-child li {
+    float: left;
+    width: 50%;
+    height: 50px;
+  }
+  header nav > *:first-child li:first-child a {
+    position: relative;
+    top: 22%;
+    right: 1%;
+  }
+  header nav > *:first-child li input {
+    background: #f0f1f2;
+    width: 135px;
+    height: 40px;
+    padding-left: 10%;
+    border: 0;
+    border-radius: 2px;
+/* MOVE THESE TO FONT SECTION */
+    font-size: .85rem;
+    font-weight: 600;
+    color: #1e68ef;
+    letter-spacing: -0.5px;
+  }
+  header nav > *:last-child {
+    position: relative;
+    top: 15%;
+    left: 4%;
+  }
+  header nav > *:last-child li {
+    float: right;
+    width: 33.33%;
+  }
+  header nav > a.logo {
+    /* width: 200px; */
+    padding: 0 0 0 0;
+  }
+  header nav > a.logo img {
+    width: 225px;
+    height: 50px;
+    padding-left: 25px;
+  }
+}
+
+
+/* MAIN LAYOUT */
+/* tablet main */
+main {
+  height: 700px;
+}
+main > * {
+  float: left;
+  position: relative;
+  top: 28%;
+  right: 5px;
+  width: 54%;
+}
+main > img {
+  width: 43.5%;
+  top: 25%;
+}
+main > section > :not(ul) {
+  padding: 0 0 10px 20px;
+}
+main h1 {
+  width: 80%;
+  height: 125px;
+  max-height: 100%;
+  margin-bottom: 4%;
+}
+/* main > section p + p { */
+/*   margin-top: 2%; */
+/* } */
+main > section .btn {
+  margin-top: 3%;
+}
+
+/* desktop main */
+/* @media (min-width: 778px) and (max-width: 1028px) { */
+/*   main.mobile-only { */
+/*     display: none; */
+/*   } */
+/* } */
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-a {
+
+/* FONTS */
+/* root */
+html{
+  font-size: 97%;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size-adjust: auto;
+}
+
+/* base fonts */
+h1,
+h2 {
+  font-family: "Playfair Display", sans-serif;
+}
+a,
+.btn input {
   text-decoration: none;
 }
-main a {
-  background: blue;
+.btn input{
   color: white;
-  padding: 10px;
+  font-size: .75rem;
+  font-weight: 700;
+  word-spacing: -5px;
+}
+/* header fonts */
+.mobile-only i.nf-mdi-menu,
+.mobile-only i.nf-fa-search {
+    font-size: 1.75rem;
+  }
+.desktop-nav {
+  font-size: 0.98rem;
+  font-weight: bold;
+}
+
+/* main fonts */
+main {
+  line-height: 2rem;
+}
+main h1 {
+  line-height: 1.2em;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+/* COLORS */
+a {
+  color: #3c7aed;
+}
+
+/* main colors  */
+main h1 {
+  color: #26272d;
 }

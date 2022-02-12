@@ -2,49 +2,101 @@
 <html lang="en">
   <head>
     <title></title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="assets/stylesheets/reset.css" rel="stylesheet">
-    <link href="assets/stylesheets/style.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/stylesheets/reset.css" rel="stylesheet" />
+    <link href="assets/stylesheets/style.css" rel="stylesheet" />
   </head>
   <body>
-
     <header class="clear">
-
       <nav>
-        <ul>
-          <li><span>Courses</span></li>
+        <ul class="desktop-nav">
+          <li><a href="#">Courses </a></li>
           <li>
             <form>
-              <input type="search" name="search" value="Search">
+              <input type="search" name="search" value="Search" />
             </form>
           </li>
         </ul>
 
-        <a href="#"><img src="#" alt="Khan Academy Title logo"></a>
+        <a class="logo mobile-only nav" href="#"
+          ><img
+            src="assets/images/khan-logo-mobile.jpg"
+            alt="Khan Academy Title logo"
+        /></a>
+        <a class="logo desktop-nav" href="#"
+          ><img src="assets/images/khan-logo.jpg" alt="Khan Academy Title logo"
+        /></a>
 
-        <ul>
-          <li><a href="#">Donate</a></li>
-          <li><a href="#">Donate</a></li>
+        <ul class="mobile-only nav">
+          <li>
+            <a href="#"><i class="nf-mdi-menu"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="nf-fa-search"></i></a>
+          </li>
+        </ul>
+
+        <ul class="desktop-nav">
+          <li><a href="#">Sign up</a></li>
+          <li><a href="#">Login</a></li>
           <li><a href="#">Donate</a></li>
         </ul>
       </nav>
-
     </header>
 
     <main>
-      <img src="#" alt="Kids Studying">
+      <img src="assets/images/kids-studying.jpg" alt="Kids Studying" />
+
       <section>
-        <h1>For every student, ever classroom. Real Results.</h1>
-        <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing</p>
-        <ul class="btn-list">
-          <li><a href="#">Learners</a></li>
-          <li><a href="#">Learners</a></li>
-          <li><a href="#">Learners</a></li>
-          <li><a href="#">Learners</a></li>
+        <h1>For every student, every classroom. Real results.</h1>
+        <p>
+          We're a nonprofit with the mission to provide a free, world-class
+          education for anyone, anywhere.
+        </p>
+
+        <span class="mobile-only"
+          >Learners, teachers, students, and parents:</span
+        >
+        <form class="mobile-only btn">
+          <input type="button" value="Start here" />
+        </form>
+
+        <ul class="desktop-btn-list">
+          <li>
+            <form class="btn">
+              <input type="button" value="Learners" />
+            </form>
+          </li>
+          <li>
+            <form class="btn">
+              <input type="button" value="Teachers" />
+            </form>
+          </li>
+          <li>
+            <form class="btn">
+              <input type="button" value="Students" />
+            </form>
+          </li>
+          <li>
+            <form class="btn">
+              <input type="button" value="Parents" />
+            </form>
+          </li>
         </ul>
       </section>
     </main>
-
   </body>
 </html>
