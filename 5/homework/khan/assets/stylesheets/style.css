@@ -109,7 +109,7 @@ header nav .mobile-only li:first-child {
   }
 
   header nav > * {
-    width: 33%;
+    width: 33.33%;
     /* height: 50px; */
     padding: 1.5% 2.75% 0 0;
     margin: 0 auto;

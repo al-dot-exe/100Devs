@@ -1,0 +1,268 @@
+Active Recall Q's from the js crash course video
+https://www.youtube.com/watch?v=hdI2bqOjy3c
+
+What's the difference between high level and low level languages?
+What is an interpreted language?
+00:01:00
+
+What is the ECMAScript specification?
+
+What are some of the different uses of javascript
+00:03:00
+
+Where do we put our javascript in our html file?
+07:15
+
+Why don't we want use the alert() function for output?
+What should we use instead?
+08:35:00
+
+What is the console in javascript?
+
+What are the 3 ways to set variables in javascipt?
+11:37
+
+Why don't we want to use vars anymore?
+11:50
+
+What's the difference between let and const variables? When do use both?
+12:00
+
+
+Strings Data Type Q's
+What is a primitive data type?
+What primitive data types can we assign to variables?
+00:14:30
+
+What are the two ways to create undefined variables?
+00:16:30
+
+How can we check our variables in console.log()?
+00:17:00
+
+How can we do concatenation in javascript?
+00:19:00
+
+What is a template string? How can we do it in js?
+00:19:50
+
+
+Common String Methods
+00:21:00
+What does the #length method do?
+What does the toUpperCase method do?
+What does the substring method do?
+What does the split method do?
+
+Array Q's
+What two ways do we set up an Array?
+00:24:30
+
+What is a constructor?
+
+What does it mean to be statically typed?
+00:25:30
+
+How would we access a single element in an array?
+
+What does it mean to be 0 indexed?
+00:26:30
+
+Common Array Method Q's?
+00:27:40
+
+What does the js push method do?
+What does the js unshift method do?
+What does the js pop method do?
+What does the js isArray method do?
+What does the js indexOf method do?
+
+
+Object Literal Q's
+What are object literals in javascript?
+00:29:50
+
+How do we access a single value in object literals?
+00:31:00
+
+How would we destructure an object literals in js?
+00:32:50
+
+How do we add key values to objects?
+00:34:00
+
+What is json?
+00:35:50
+
+How can we convert a javascript to JSON?
+00:37:00
+
+LOOP Q's
+How do we do for loops in js? What are the 3 components?
+00:37:50
+
+How do we do while loops in js? 
+How are while loops different than for loops?
+00:39:30
+
+How would we loop through arrays in js?
+00:40:00
+
+What is a for/of loop in js?
+00:41:40
+
+What are high order array methods?
+00:42:40
+
+High order array methods
+What are 3 common high order array methods?
+00:42:50
+How does the forEach method work?
+How does the map method work?
+How does the filter method work?
+
+
+Conditional Q's
+How do we do if statements in js?
+00:46:20
+
+What is the difference between == and === in js?
+00:47:30
+
+How would we do else/if statements in js?
+00:48:30
+
+How do we do ternary operators in js? When would we use them?
+00:51:00
+
+What is a switch in js? How do we use them?
+00:52:50
+
+
+Function Q's
+What is the basic function syntax?
+00:54:30
+How do we call functions?
+How do we set default values in js functions?
+
+What are arrow functions in js? How do we use them?
+00:56:30
+
+Object Oriented Programming Q's 
+(OOP in 7 minutes https://www.youtube.com/watch?v=aMFzJHDHLno)
+
+What style of programming came before OOP? How is it problematic?
+
+What is an Object?
+
+What are object properties?
+03:15
+
+What is encapsulation?
+
+What is decoupling?
+
+What is Abstraction in OOP?
+
+Why do we want to reduce the impact of change?
+
+What is Inheritance in OOP?
+
+What is Polymorphism in OOP?
+
+What are the 4 pillar of OOP? What are their benefits?
+
+
+Back to js Crash Course
+js OOP Q's
+
+What are two ways to construct objects in js?
+00:59:32
+
+What is the this parameter in constructor functions in js?
+01:00:00
+
+What is object instantiation? How do we do it in js?
+01:01:00
+
+What is the Date constructor?
+01:02:40
+
+How do we add methods to object functions?
+01:03:30
+
+What are prototypes? How do we use them in js?
+01:05:00
+
+What did ES6 add to OOP in js?
+01:07:30
+
+How do we create classes in js?
+01:08:10
+
+How do we add methods to classes in js?
+01:08:50
+
+Why are classes cleaner to use over constructor functions in js?
+01:09:50
+
+Document Object Model Q's
+What is the DOM?
+01:12:00
+
+What is selection? How do we do it?
+
+What are the two type of selectors?
+01:13:00
+
+What is the window object in js?
+01:14:00
+
+What window object property makes up the DOM?
+01:14:30
+
+Single element selectors
+What does the gelElementById selector do?
+01:15:00
+
+What does the querySelector selector do?
+01:16:00
+
+Multi element selectors
+What does the querySelectorAll selector do?
+01:17:10
+
+What is a NodeList?
+01:17:40
+
+Why should we just use querySelectorAll for multi element selection?
+01:18:00
+
+What is an Html collection? How is it different than a NodeList?
+01:18:35
+
+How can we loop through our DOM using js?
+01:19:35
+
+How can we manipulate things in the DOM?
+01:20:15
+
+Some DOM manipulation Methods
+What does the remove method do to a selected DOM item?
+01:20:50
+What does the firstElementChild method do to a selected DOM item?
+What does the textContent method do to a selected DOM item?
+What does the children method do to a selected DOM item?
+What does the innerHTML method do to a selected DOM item?
+01:21:50
+
+Why would we want to change CSS in js using DOM selectors?
+01:24:20
+
+js Events Q's
+How do we create event listeners in js?
+01:24:50
+How do prevent default behavior on click events?
+01:25:55
+How can we change code on event clicks?
+01:27:45
