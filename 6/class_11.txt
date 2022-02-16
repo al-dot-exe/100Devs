@@ -1,0 +1,9 @@
+Active Q's from Class 11 in 100Devs
+
+Why would we choose to set our html root element
+with a font size of 62.5%?
+01:45:00
+
+What does the flex-basis property do?
+02:47:50
+

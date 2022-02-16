@@ -1,0 +1,149 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background: #f5f9fc;
+  color: #506477;
+}
+header > nav,
+main > :not(.background-img) {
+  padding: 0 4% 0 4%;
+}
+main {
+  padding-top: 5%;
+}
+.btn {
+  background: #304659;
+  color: #fff;
+}
+.btn:hover {
+  background: #f5f9fc;
+  color: #304659;
+  border: 5px solid #304659;
+}
+
+@media screen and (max-width: 720px) {
+  .desktop-only {
+    display: none;
+  }
+}
+@media (min-width: 721px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  border: 1px solid black;
+  text-align: center;
+}
+header > nav {
+  padding: 5% 2.5%;
+  border: 1px solid pink;
+}
+header nav > * {
+  float: left;
+}
+header .mobile-only > * {
+  width: 99%;
+}
+header .mobile-only > :first-child {
+  width: 1%;
+  text-align: left;
+}
+
+/* Main layout */
+main > section {
+}
+main > section > * {
+  float: left;
+  width: 100%;
+}
+main > :first-child > section > * {
+  padding: 2% 0;
+}
+main h1 {
+  margin-right: 25%;
+}
+main form * {
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin: 3% 0;
+  border: 0;
+}
+main form input[type="search"] {
+  background: #e5ecf2;
+  padding-left: 5%;
+}
+main > :first-child p {
+  padding-bottom: 35px;
+}
+main > img.background-img {
+  float: right;
+  width: 95%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/* Fonts */
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 100%;
+}
+
+h1, h2, h3, a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* header fonts */
+header .mobile-only * {
+  font-size: 2rem;
+}
+header .mobile-only > :first-child * {
+  color: #5b6d7d;
+  font-size: 1.75rem;
+}
+
+/* Main  */
+main {
+  font-size: 1rem;
+}
+main h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+input.btn {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+main p {
+  line-height: 1.5rem;
+}
