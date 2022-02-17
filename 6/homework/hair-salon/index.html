@@ -8,11 +8,12 @@
     <link href="assets/stylesheets/style.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="clearfix">
+    <header>
       <nav class="clearfix">
-        <img class="logo" src="assets/images/logo.jpg" alt="logo" />
-        <ul>
-          <li><a href="#">Home</a></li>
+        <section>
+          <img class="logo" src="assets/images/logo.jpg" alt="logo" />
+        </section>
+        <ul class="clearfix">
           <li><a href="#">Home</a></li>
           <li><a href="#">Home</a></li>
           <li><a href="#">Home</a></li>
@@ -29,22 +30,31 @@
         <a href="#">- Book Online</a>
       </nav>
     </header>
-    <main class="clear">
-      <section>
-        <h1>Blonde & Highlight</h1>
-        <p>
-          Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
-          cillum sint consectetur cupidatat.
-        </p>
+    <main class="clearfix">
+      <img
+        class="main-background"
+        src="./assets/images/main-background.jpg"
+        alt="Main background"
+      />
+      <section class="title">
+        <h1>
+          Blonde <br />
+          & Highlight
+        </h1>
+        <p>DIVIDE YOUR UNIQUENESS AT YOUR HAIRS IN TYLE</p>
         <a class="btn" href="#">- Our Services</a>
       </section>
+
       <section class="coupon">
-        <h3>Your First Visit?</h3>
-        <p><span>20%</span> FOR THE FIRST CLASSIC HAIR COLORING</p>
+        <section>
+          <h3>Your First Visit?</h3>
+        </section>
+        <p><span>-20%</span> FOR THE FIRST CLASSIC HAIR COLORING</p>
         <a class="btn-alt" href="#">- Book Online</a>
       </section>
-      <section class="clearfix">
-        <div class="column-3 ">
+
+      <section class="clear container">
+        <div class="column-3 clearfix">
           <section>
             <img src="assets/images/main-icon.jpg" alt="icon" />
             <h4>Expert Beauticians</h4>
@@ -53,6 +63,7 @@
               sint cillum sint consectetur cupidatat.
             </p>
           </section>
+
           <section>
             <img src="assets/images/main-icon.jpg" alt="icon" />
             <h4>Expert Beauticians</h4>
@@ -61,6 +72,7 @@
               sint cillum sint consectetur cupidatat.
             </p>
           </section>
+
           <section>
             <img src="assets/images/main-icon.jpg" alt="icon" />
             <h4>Expert Beauticians</h4>
@@ -73,10 +85,14 @@
       </section>
     </main>
 
-    <section class="alt-background clearfix">
-      <div class="column-2">
+    <section class="about alt-background clearfix">
+      <div class="container column-2 clearfix">
         <section>
-          <h2>MAKE YOUR OWN MOMENTUM</h2>
+          <h2>
+            MAKE YOUR <br />
+            OWN MOMENTUM
+          </h2>
+
           <p>
             Lorem ipsum dolor sit amet, officia excepteur ex fugiat
             reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit
@@ -90,6 +106,7 @@
             ex non excepteur duis sunt velit enim. Voluptate laboris sint
             cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
           </p>
+
           <a class="btn" href="#">- Read More</a>
         </section>
 
@@ -97,11 +114,50 @@
       </div>
     </section>
 
-    <section class="clearfix">
-      <div class="column-3 beauty-grid">
+    <section class="beauticians">
+      <div class="column-3 container clearfix">
         <img src="assets/images/alita.jpg" alt="Alita" />
         <img src="assets/images/alita.jpg" alt="Alita" />
         <img src="assets/images/alita.jpg" alt="Alita" />
+      </div>
+    </section>
+
+    <section class="promo">
+      <div class="container">
+        <img src="assets/images/assets/banner.jpg" alt="Banner photo" />
+        <section>
+          <h4>Colour Day Offer:</h4>
+          <h2>
+            -10% on haircut <br />
+            color and highlight
+          </h2>
+          <a class="btn" href="#">- BOOK APPOINTMENT</a>
+        </section>
+      </div>
+    </section>
+
+    <section class="lookbook">
+      <h2>OUR LOOKBOOK</h2>
+      <span>-</span>
+      <div class="container beauty-grid">
+        <div class="cross">
+          <img src="assets/images/assets/lookbook6.jpg" alt="Hairstyle photo" />
+        </div>
+        <div class="cross">
+          <img src="assets/images/assets/lookbook2.jpg" alt="Hairstyle photo" />
+        </div>
+        <div class="cross">
+          <img src="assets/images/assets/lookbook3.jpg" alt="Hairstyle photo" />
+        </div>
+        <div class="cross">
+          <img src="assets/images/assets/lookbook1.jpg" alt="Hairstyle photo" />
+        </div>
+        <div class="cross">
+          <img src="assets/images/assets/lookbook5.jpg" alt="Hairstyle photo" />
+        </div>
+        <div class="cross">
+          <img src="assets/images/assets/lookbook4.jpg" alt="Hairstyle photo" />
+        </div>
       </div>
     </section>
   </body>
