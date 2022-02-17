@@ -21,14 +21,30 @@
 /* BASE STYLES
 /*******************************************/
 body > *{
-  border: 1px solid red;
+}
+.container {
+  padding: 5% 1%;
+  margin: 0 15%;
+}
 
+.btn {
+  display: inline-block;
+  color: black;
+  font-size: 1.75rem;
+  text-align: center;
+  padding: 30px 60px;
+}
+.header-btn {
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 2px;
 }
 header, main {
   background: #66768a;
   color: #f1f1f1;
 }
-body > section { 
+.alt-section { 
   background: #fff;
   color: #29303b;
 }
@@ -46,20 +62,115 @@ footer {
 /*******************************************/
 header nav > * {
   float: left;
-  width: 33%;
-  border: 1px solid pink;
+  height: 50px;
+}
+header nav > :first-child {
+  padding-top: 1%;
+  width: 15%;
+}
+header nav > :first-child + section {
+  width: 70%;
+}
+header nav > :last-child {
+  padding-top: 1%;
+  width: 15%;
+}
+header nav > .logo {
+  width: 80%;
 }
 nav > ul > li {
   float: left;
   width: 50%;
 }
 
+/* main layout */
+main > .container > :not(:last-child) {
+  padding-bottom: 50px;
+}
 
+/* visit section layout */
+.visit-section section {
+  float: left;
+  width: 44%;
+  margin: 0 2%;
+}
+.visit-section section > :not(:last-child) {
+  margin-bottom: 10%;
+}
+.visit-section .box {
+  background: #2b333d;
+  display: block;
+  text-align: center;
+  width: 475px;
+  max-width: 100%;
+  height: 300px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+/* alt section layouts  */
+.alt-section .container > :not(.btn) {
+  padding: 0 15%;
+}
+.alt-section .container > :not(:last-child){
+  padding-bottom: 30px;
+}
+
+
+/* footer layouts */
+footer {
+  padding: 1% 2%;
+}
 footer div > section {
   float: left;
   width: 50%;
-  border: 1px solid lime;
+  height: 100%;
+  text-align: left;
 }
+footer div > :first-child {
+  padding-right: 35%;
+}
+footer div > :last-child {
+  padding-left: 35%;
+}
+footer div > :last-child > :first-child {
+  padding-bottom: 5%; 
+}
+footer .social-media > * {
+  float: left;
+  width: 35px;
+}
+footer .social-media ~ ul {
+  padding-top: 1px;
+}
+footer .social-media ~ ul > * {
+  float: left;
+  width:  25%;
+}
+footer h5 {
+  padding-top: 5%;
+}
+footer div :last-child > * {
+  display: block;
+}
+footer .copyright {
+  text-align: left;
+  border-top: 2px solid white;
+  padding-top: 1%;
+  margin-top: 1%;
+}
+footer .copyright > * {
+  float: left;
+  width: 50%;
+  padding-top: 1%;
+}
+footer .copyright > :last-child {
+  padding: 0;
+  text-align: right;
+}
+footer .copyright img {
+  width: 50px;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -68,9 +179,50 @@ footer div > section {
 /* Fonts */
 /* general fonts */
 html {
-  font-size: 100%;
+  font-size: 62.5%;
   text-align: center;
 }
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+h6 {
+  font-size: 1.5rem;
+}
 a {
+  color: white;
   text-decoration: none;
+}
+
+/* header fonts */
+header {
+  font-size: 1.5rem;
+}
+
+/* main section font */
+main :not(h1) {
+  font-size: 2rem;
+}
+
+/* section fonts  */
+.visit-section p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.alt-section p {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+/* footer fonts */
+footer {
+  font-size: 1.2rem;
+}
+.social-media {
+  font-size: 2rem;
 }

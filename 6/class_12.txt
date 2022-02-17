@@ -1,0 +1,3 @@
+Notes from Class 12 of 100 Devs. First JS DAY!
+
+Javascript Active Q's

@@ -15,27 +15,31 @@
   </head>
   <body>
     <header>
-      <nav class="desktop-only">
+      <nav class="tablet-up clearfix">
         <h3>Source</h3>
-        <ul>
-          <li><a href="#">First Link</a></li>
-          <li><a href="#">First Link</a></li>
-          <li><a href="#">First Link</a></li>
-          <li><a href="#">First Link</a></li>
-        </ul>
-        <a class="btn" href="#">Button</a>
+        <div>
+          <ul class="clearfix">
+            <li><a href="#">First Link</a></li>
+            <li><a href="#">First Link</a></li>
+            <li><a href="#">First Link</a></li>
+            <li><a href="#">First Link</a></li>
+          </ul>
+        </div>
+        <div>
+          <a class="btn" href="#">Button</a>
+        </div>
       </nav>
       <nav class="mobile-only clearfix">
         <a href="#"><i></i></a>
         <h3>Source</h3>
       </nav>
     </header>
-    <main>
-      <section class="clearfix">
-        <section>
+    <main class="clearfix">
+      <div class="clearfix">
+        <section class="clearfix">
           <h5>TAGLINE</h5>
           <h1>Source helps creators do more of what they love</h1>
-          <form>
+          <form class="clearfix">
             <input type="search" name="search" placeholder="Placeholder" />
             <input class="btn" type="button" name="button" value="Button" />
           </form>
@@ -44,41 +48,43 @@
             having to be completely redone.
           </p>
         </section>
-      </section>
-      <img
-        class="background-img"
-        src="assets/images/laptop-graphic.jpg"
-        alt="laptop graphic"
-      />
-      <section class="desktop-only">
-        <div class="grid">
+
+        <section class="background-img">
+          <img
+            src="assets/images/laptop-graphic.jpg"
+            alt="laptop graphic"
+          />
+        </section>
+      </div>
+
+      <div>
+        <section class="desktop-only grid">
           <section>
             <img src="assets/images/first-link.jpg" alt="link-logo" />
-            <h3>Feature One</h3>
-            <a href="#">First Link &gt;</a>
+            <h3>Feature one</h3>
+            <p>In such a test, the user performs realistic tasks by interacting with the paper prototype</p>
+            <a href="#">First link &gt;</a>
           </section>
           <section>
-            <img src="assets/images/first-link.jpg" alt="link-logo" />
-            <h3>Feature One</h3>
-            <a href="#">First Link &gt;</a>
+            <img src="assets/images/second-link.jpg" alt="link-logo" />
+            <h3>Feature two</h3>
+            <p>Three Techniques of paper prototyping used for usability testing are comps, wireframes</p>
+            <a href="#">Second link &gt;</a>
           </section>
           <section>
-            <img src="assets/images/first-link.jpg" alt="link-logo" />
-            <h3>Feature One</h3>
-            <a href="#">First Link &gt;</a>
+            <img src="assets/images/third-link.jpg" alt="link-logo" />
+            <h3>Feature three</h3>
+            <p>Rapid prototyping involves a group of designers who each create a paper prototype</p>
+            <a href="#">Third link &gt;</a>
           </section>
           <section>
-            <img src="assets/images/first-link.jpg" alt="link-logo" />
-            <h3>Feature One</h3>
-            <a href="#">First Link &gt;</a>
+            <img src="assets/images/fourth-link.jpg" alt="link-logo" />
+            <h3>Feature four</h3>
+            <p>Functionality is similarly unimportant, but in this case is closer to the final product</p>
+            <a href="#">Fourth link &gt;</a>
           </section>
-          <section>
-            <img src="assets/images/first-link.jpg" alt="link-logo" />
-            <h3>Feature One</h3>
-            <a href="#">First Link &gt;</a>
-          </section>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
   </body>
 </html>

@@ -26,7 +26,7 @@ body {
   color: #506477;
 }
 header > nav,
-main > :not(.background-img) {
+main > div > :not(.background-img) {
   padding: 0 4% 0 4%;
 }
 main {
@@ -34,6 +34,7 @@ main {
 }
 .btn {
   background: #304659;
+  border: 1px solid white;
   color: #fff;
 }
 .btn:hover {
@@ -42,17 +43,31 @@ main {
   border: 5px solid #304659;
 }
 
-@media screen and (max-width: 720px) {
-  .desktop-only {
+@media screen and (max-width:720px) {
+  .desktop-only,
+  .tablet-up {
     display: none;
   }
 }
-@media (min-width: 721px) {
+@media (min-width:721px) {
   .mobile-only {
     display: none;
   }
+  header .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+  }
 }
 
+@media (min-width:1029px) {
+}
+
+
+  
+/******************************************
+/* /* MOBILE FIRST DESIGN */
+/*******************************************/
 
 /******************************************
 /* LAYOUT
@@ -63,7 +78,6 @@ header {
 }
 header > nav {
   padding: 5% 2.5%;
-  border: 1px solid pink;
 }
 header nav > * {
   float: left;
@@ -75,19 +89,47 @@ header .mobile-only > :first-child {
   width: 1%;
   text-align: left;
 }
+nav.tablet-up {
+  padding: 0;
+}
+nav.tablet-up > * {
+  padding: 1.5% 0;
+}
+nav.tablet-up > :first-child {
+  padding-left: 2%;
+  text-align: left;
+}
+nav.tablet-up > :last-child {
+  padding-right: 2%;
+  text-align: right;
+}
+nav.tablet-up > :first-child,
+nav.tablet-up > :last-child {
+  float: left;
+  width: 15%;
+}
+nav.tablet-up > :first-child + * {
+  width: 70%;
+}
+nav.tablet-up > :first-child + * > ul {
+  min-width: 400px;
+  width: 500px;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+nav.tablet-up  ul > li {
+  float: left;
+  width: 25%;
+}
+
 
 /* Main layout */
-main > section {
-}
-main > section > * {
-  float: left;
-  width: 100%;
-}
 main > :first-child > section > * {
   padding: 2% 0;
 }
-main h1 {
-  margin-right: 25%;
+main > div {
+  margin: 0;
 }
 main form * {
   display: block;
@@ -103,10 +145,49 @@ main form input[type="search"] {
 main > :first-child p {
   padding-bottom: 35px;
 }
-main > img.background-img {
-  float: right;
-  width: 95%;
+main .background-img {
+  text-align: right;
 }
+
+@media (min-width:1029px) {
+  main h1 {
+    margin-right: 25%;
+  }
+  main > :first-child > * {
+    float: left;
+    width: 50%;
+  }
+  main > :first-child > :first-child {
+    padding-top: 80px;
+  }
+  main > :first-child .background-img * {
+    width: 100%;
+    max-width: 750px;
+  }
+  main > :last-child {
+  }
+  main form > * {
+    float: left;
+  }
+  main form > :first-child {
+    width: 70%;
+  }
+  main form > :last-child {
+    min-width: 120px;
+    width: 20%;
+    max-width: 150px;
+  }
+  main .grid > * {
+    float: left;
+    width: 25%;
+  }
+  .grid > section > * {
+    padding-bottom: 20px;
+  }
+}
+  main h1, h5 {
+    padding-bottom: 20px;
+  }
 
 
 /******************************************
@@ -115,35 +196,41 @@ main > img.background-img {
 /* Fonts */
 html {
   font-family: "Poppins", sans-serif;
-  font-size: 100%;
+  font-size: 62.5%;
 }
 
 h1, h2, h3, a {
+  color: #304659;
   text-decoration: none;
+  font-weight: bold;
+}
+.btn {
+  font-size: 2rem;
   font-weight: bold;
 }
 
 /* header fonts */
-header .mobile-only * {
+header h3 {
   font-size: 2rem;
+}
+header ul > * {
+  font-size: 1.75rem;
+  font-weight: 300;
 }
 header .mobile-only > :first-child * {
   color: #5b6d7d;
-  font-size: 1.75rem;
+  font-size: 3rem;
+}
+header .mobile-only h3 {
+  color: #5b6d7d;
+  font-size: 3rem;
 }
 
 /* Main  */
 main {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 main h1 {
-  font-size: 2.5em;
+  font-size: 3.5rem;
   font-weight: bold;
-}
-input.btn {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-main p {
-  line-height: 1.5rem;
 }
