@@ -1,3 +1,71 @@
 Notes from Class 12 of 100 Devs. First JS DAY!
 
 Javascript Active Q's
+
+What do we call the $ in js?
+00:54:00
+
+What does rendering your page do your web page files?
+1:05:00
+
+What is the DOM?
+
+What does refreshing a page do to a site? 
+1:10:00
+
+What is javascripts relationship to the Document Object Model?
+1:13:30
+
+What does the document selector tell us in Javascript?
+1:16:00
+
+What does the onclick method tell us?
+
+What does the querySelectory selector do?
+1:18:20
+
+What are event listeners?
+1:19:20
+
+What's the worst thing you can do when learning a new language?
+1:26:30
+
+What are the 4 major things to learn in ANY programming language
+1:27:30
+
+What is a variable?
+1:28:00
+
+What is a variable declaration in programming?
+1:30:30
+
+What is a variable assignment in programming?
+1:32:40
+
+What is a reserve word in js?
+1:31:30
+
+Why won't the following string work?
+"They "purchased" it"
+How do we fix it?
+1:42:00
+
+How do we carriage return in strings?
+
+Why would we not use escape characters in javascript strings?
+1:45:00
+
+Why is addEventListener so powerful?
+1:55:25
+
+What do we use conditionals for?
+2:18:35
+
+How would see if a value is  equal in value and type to another variabel?
+2:23:40
+
+How would see if a value is not equal in value nor type to another variabel?
+2:22:23
+
+What is basic if syntax in js?
+2:25:20
