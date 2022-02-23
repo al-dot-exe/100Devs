@@ -1,0 +1,6 @@
+Active Recall Q's from class 13 of 100Devs
+
+01:45:30
+What does the $ sign mean in programming terms?
+
+
