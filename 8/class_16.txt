@@ -1,0 +1,12 @@
+Active Recall Q's from class 16 of 100 Devs
+
+How do we do type casting in javascript?
+1:25:30
+
+How would we define what a loop is?
+2:31:00
+
+What are the 3 types of loops in javascript?
+...
+
+

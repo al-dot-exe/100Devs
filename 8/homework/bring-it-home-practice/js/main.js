@@ -14,7 +14,7 @@ const subtractFour = () => tenToTwenty - 3 - 4 - 1;
 alert(subtractFour());
 
 // Create a function that divides one number by another and returns the remainder
-const divByOne = (num1, num2) => num1 / num2;
+const divByOne = (num1, num2) => num1 % num2;
 
 let firstNum = subtractFour();
 alert(divByOne(firstNum, 4));
@@ -37,8 +37,11 @@ alert(jumanji(firstNum, secondNum));
 let thirdNum = jumanji(firstNum, secondNum);
 
 let multiplyThree = (num1, num2, num3) => {
-  const num4 = num1 * num2 * num3
+  const num4 = num1 * num2 * num3;
   return (num4 % 3 == 0) ? `${num4} ZEBRA` : 'no zebra';
 }
 
 alert(multiplyThree(firstNum, secondNum, thirdNum));
+
+//*Loops*
+//Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
