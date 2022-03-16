@@ -1,0 +1,10 @@
+Classes 17 and 18 were networking Classes
+These are active q's for class 19 of 100 devs
+
+
+ARRAYS 
+What is literal notation when declaring arrays?
+1:50:00
+
+What is the syntax for a .forEach loop if we want the element and index?
+2:24:00 IN CHAT
