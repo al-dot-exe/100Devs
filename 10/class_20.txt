@@ -1,0 +1,9 @@
+Active Recall Q's for class 20 on Arrays in 100 Devs
+
+Whaat does the shift array method do in js?
+2:26:05
+
+
+What does the reduce array method do in js?
+you searched it :>.
+
