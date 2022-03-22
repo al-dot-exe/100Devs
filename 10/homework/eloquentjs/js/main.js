@@ -29,9 +29,26 @@ function sum(array) {
 // does what the reverse method does: it modifies the array given as argument by reversing its elements. Neither may use the standard reverse method
 
 function reverseArray(arr) {
-  //stuff
+  let new_arr = []
+  for (let i = arr.length - 1; i > 0; i--) {
+    new_arr.push(arr[i]);
+  }
+  return new_arr;
 }
 
-function reverseArrayInPlace(arr) {
-  // do mutating stuff
-}
+// WRONG!!!
+// [1, 2, 3, 4]
+// function reverseArrayInPlace(arr) {
+//   // starting from middle two elements and working our way outwards
+//   let i = Math.ceil((arr.length - 1) / 2); // i == 2
+//
+//   while(i <= (arr.length - 1)) { //arr.length - 1 == 3
+//     //element in first half
+//     let firstElement = arr[(arr.length - 1) - (i)]; // == arr[1] first go around
+//     //element in last half
+//     let lastElement = arr[i]; //== arr[2] first go around
+//     arr.unshift(lastElement)
+//     arr.push(firstElement);
+//     i++;
+//   }
+// }
