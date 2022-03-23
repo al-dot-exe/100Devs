@@ -1,0 +1,23 @@
+Active Q's of class 21 of 100 Devs
+
+When would we use an underscore _ as a js arrow function parameter?
+1:39:00
+
+When do implicit returns work in javascript functions?
+1:41:30
+
+What's a quick way to sort numbers in js?
+02:28:30
+
+What is EVERYTHING in js?
+2:36:00
+
+What are attributes in js?
+What are behaviors in js?
+2:41:20
+
+What is our literal notation for js objects?
+2:43:10
+
+What is primary difference between a function and a method call?
+2:47:40
