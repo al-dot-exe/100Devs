@@ -1,0 +1,28 @@
+Active Q's of class 22 of 100 Devs
+
+What does the string search() method in js do?
+00:42:00
+
+What are some shorthand ways to do conversion in the reduce method? 
+1:47:00
+
+Why are constructor functions so useful in OOP?
+2:12:00 2:23:00
+
+What IS a constructor fundamentally?
+2:26:00
+
+What does the new keyword do for us when making Objects?
+2:30:45
+
+What is prototypal inheritance in js?
+2:39:00
+
+What is the global object prototype 0.o!?
+2:42:35
+
+How does the global object prototype allow type coercion?
+2:44:00
+
+What is the naming convention for Objects in js?
+2:57:25
