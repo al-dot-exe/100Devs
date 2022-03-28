@@ -1,0 +1,111 @@
+Active Recall Q's from OOP Made Simple youtube course homework
+
+Lookup Object-oriented Programming in Javascript: Made Simple
+by Programming with Mosh
+for recall session
+
+...
+Why are js object literals limited when creating objects?
+15:45
+
+What does it mean for an object to have behavior?
+15:53
+
+What is a factory in js object oriented programming? Why are they useful?
+16:20
+
+What did es6 add to streamline parameter usage?
+17:00
+
+How do we create constructor functions?
+18:20
+
+What is the this keyword?
+19:00
+
+What is the new operator? What does it do?
+19:50
+
+What are the two ways to create objects in js without classes?
+21:59
+
+What is the difference between Factory functions and Constructor functions in js?
+22:00
+
+
+Constructor property Q's
+What happens when we use object literal syntax to create objects in js?
+24:30
+
+What are common data type constructors in js?
+25:30
+
+Functions are objects
+How can we prove that a function is an object in js?
+25:30
+
+What does the call() method do in js?
+28:45
+
+What does the apply() method do in js?
+30:00
+
+Value vs Reference Types?
+31:20
+
+What are the value types in js?
+What are the reference types in js?
+
+What happens when you assign object variables to new declared variables in javascript?
+33:28
+
+What is the difference between how value types are copied vs reference types?
+34:00
+
+
+Adding and removing properties
+
+How can we dynamically delete multiple properties from an object?
+40:30
+
+
+Enumeration
+What is enumerating?
+41:00
+
+How do we target only properties when enumerating over an object?
+42:20
+
+How do we target properties and methods when enumerating over an object?
+42:20
+
+Abstraction
+How do we hide methods in objects from consumers in js?
+What is the dvd player analogy for understanding abstraction?
+45:30
+
+*** What is the simplest way to implement abstraction in js?
+48:30
+
+*** What are private methods in object oriented programming?
+48:10
+
+**** What does closure in js determine?
+50:00
+
+What are private members of objects? 
+52:10
+
+
+What does the defineProperty() method do?
+How can we define read only properties in js?
+53:50
+
+What is a getter function in js?
+55:50
+
+What is a setter function in js?
+56:00
+
+How do we throw erros in js?
+1:01:20
