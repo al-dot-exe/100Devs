@@ -30,25 +30,40 @@ function sum(array) {
 
 function reverseArray(arr) {
   let new_arr = []
-  for (let i = arr.length - 1; i > 0; i--) {
+  for (let i = arr.length - 1; i >= 0; i--) {
     new_arr.push(arr[i]);
   }
   return new_arr;
 }
 
-// WRONG!!!
-// [1, 2, 3, 4]
-// function reverseArrayInPlace(arr) {
-//   // starting from middle two elements and working our way outwards
-//   let i = Math.ceil((arr.length - 1) / 2); // i == 2
+function reverseArrayInPlace(arr){ 
+  for(let j = 0; j < Math.floor(arr.length / 2); j++){
+    let firstElement = arr[j];
+    let lastElement = arr[arr.length - 1 - j];
+    arr[j] = lastElement;
+    arr[arr.length - 1 - j] = firstElement;
+  }
+}
+
+
+// Doing this one next
+// 3 A List
+// Write a function arrayToList that builds up a list structure like the one shown when given [1, 2, 3] as 
+// argument. Also write a listToArray function that produces an array from a list. Then add a helper function 
+// prepend, which takes an element and a list and creates a new list that adds the element to the front of 
+// the input list, and nth, which takes a list and a number and returns the element at the given position in 
+// the list (with zero referring to the first element) or undefined when there is no such element.
 //
-//   while(i <= (arr.length - 1)) { //arr.length - 1 == 3
-//     //element in first half
-//     let firstElement = arr[(arr.length - 1) - (i)]; // == arr[1] first go around
-//     //element in last half
-//     let lastElement = arr[i]; //== arr[2] first go around
-//     arr.unshift(lastElement)
-//     arr.push(firstElement);
-//     i++;
+// If you haven’t already, also write a recursive version of nth.
+//
+
+
+// const basicNumbers = [1, 2, 3];
+//
+// function arrayToList(array) {
+//   let list = {};
+//   for (let e of array) {
+//     
 //   }
+//
 // }
