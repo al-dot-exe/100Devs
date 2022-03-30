@@ -1,0 +1,20 @@
+Active Recall Q's from class 23 of 100 Devs
+
+What does the endsWith() js method do?
+1:23:00
+
+API's
+
+What are APIs?
+2:51:00
+
+How are API's related to restaurants?
+2:52:00
+
+What are the steps from getting Objects using APIs?
+2:56:00
+
+What does the fetch method do in js? 
+What does the .then method do in fetch? 
+3:00:00
+
