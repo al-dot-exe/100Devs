@@ -58,12 +58,40 @@ function reverseArrayInPlace(arr){
 //
 
 
-// const basicNumbers = [1, 2, 3];
-//
-// function arrayToList(array) {
-//   let list = {};
-//   for (let e of array) {
-//     
-//   }
-//
-// }
+// written out if/else statement
+  // if (array.length - 1 <= 0) {
+  //   // list.value = array[0];
+  //   // list.rest = null;
+  //   return {value: array[0], rest: null};
+  // }
+  // else {
+  //   // list.value = array[0];
+  //   // list.rest = arrayToList(array.slice(1), {});
+  //   return {value: array[0], rest: arrayToList(array.slice(1), {})};
+  // }
+
+//Recursion! with Ternary operator 0.o!
+
+function arrayToList(array, list = {}) {
+  list = (array.length - 1 <= 0) ? {value: array[0], rest: null} : { value: array[0], rest: arrayToList(array.slice(1), {})};
+  return list
+}
+
+function listToArray(list, array = []) {
+  for(key in list){
+     if(typeof list[key] != 'object') {
+      array.push(list[key]);
+    }
+    else if (list[key] != null){
+      listToArray(list[key], array);
+      return array;
+    }
+  }
+}
+
+let basicNumbersList = arrayToList([10, 20]);
+let basicNumbersArray = listToArray(arrayToList([10, 20, 30]));
+
+console.log(basicNumbersList);
+console.log(basicNumbersArray);
+
