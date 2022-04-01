@@ -1,0 +1,2 @@
+Didn't take Active Recall Q's for git because I have other resources like my git cheat sheet 
+found at this repo -> https://github.com/alEXE-tech/the_basics

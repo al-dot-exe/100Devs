@@ -59,16 +59,12 @@ function reverseArrayInPlace(arr){
 
 
 // written out if/else statement
-  // if (array.length - 1 <= 0) {
-  //   // list.value = array[0];
-  //   // list.rest = null;
-  //   return {value: array[0], rest: null};
-  // }
-  // else {
-  //   // list.value = array[0];
-  //   // list.rest = arrayToList(array.slice(1), {});
-  //   return {value: array[0], rest: arrayToList(array.slice(1), {})};
-  // }
+  if (array.length - 1 <= 0) {
+    return {value: array[0], rest: null};
+  }
+  else {
+    return {value: array[0], rest: arrayToList(array.slice(1), {})};
+  }
 
 //Recursion! with Ternary operator 0.o!
 
