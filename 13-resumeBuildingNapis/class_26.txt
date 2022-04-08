@@ -1,0 +1,58 @@
+These are Active Recall Q's on the APIs lessons on class 26 of 100 Devs
+
+What is a storage benefit of writing constructors in js?
+1:13:30
+
+Where do object instances created from constructors ultimately have access too
+after checking its constructor?
+1:21:10
+
+How do we add more properties to the global object property from outside of our
+constructor functions?
+1:25:00 (somewhere in here, stream glitched out)
+
+How do we add more properties into the constructor from outside of it?
+1:28:00
+
+What is the benefit of using the prototype to declare new properties?
+1:46:00
+
+What is the syntax for creating classes instead of objects?
+1:54:45
+
+Where do you include the this keyword in classes?
+What goes below our constructor function in js classes?
+
+
+APIs
+What are APIs?
+2:01:00
+
+How does a restaurant relate to an API?
+2:03:00
+
+What are web APIs used for ?
+2:04:30
+
+What is our interface(button) for Web Apis?
+2:05:45
+
+What is the BASIC process of using a Web API?
+2:06:20
+
+What is the basic method to access web apis?
+2:08:20
+
+What is the statement to parse data and treat it like json?
+2:10:30
+
+What does res stand for normally in js web api calls?
+2:10:50
+
+What does the .then syntax do for us?
+2:20:00
+
+What is the basic fetch code syntax?
+
+What does the question mark on a url stand for?
+2:27:20
