@@ -1,0 +1,30 @@
+Active Recall Q's from class 27 
+
+How do we add multiple query parameters to a url?
+1:22:00
+
+What does the date parameter do on the input html tag?
+~1:15:00
+
+What is an iframe html tag?
+1:30:00
+
+
+Local Storage APIs
+What is local storage useful for?
+1:39:45
+
+What does the localStorage.clear() method do?
+1:45:59
+
+What is the difference between localStorage and Session Storage?
+1:47:00
+
+What does the localStorage.setItem() do? 
+What does the localStorage.getItem() do?
+What does the localStorage.removeItem() do?
+What does the localStorage.clear()
+
+1:47:35 - 1:51:40
+
+
