@@ -13,3 +13,7 @@
 // all intact.
 
 // got this one wrong, going to wait to try it again in the future
+
+// tried again and got it correct
+
+const stringClean = s => s.replace(/[0-9]/g, '');
