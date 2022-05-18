@@ -60,6 +60,9 @@ What is the name of the main file for your node project?
 - How would we concatenate to files together in node using path?
 26:45
 
+- What does path.join do for us?
+1:09:30
+
 
 ### FS Module
 - What does fs node.js module give us?
@@ -135,17 +138,47 @@ How do we get the platform of our device?
 
 
 ### HTTP Module
-- How can we require the http module in node.js and a server instance?
-56:15
+- How can we require the http module in node.js and create a server instance?
+56:15, 1:00:10, 1:21:00
+
+- How do we write a response to an HTTP object node.js?
+56:50
+
+- How do we setup a server listening passively on a port in node js?
+58:40
+
+- How do we access the envirnoment variable to specify a port of our Node.js server?
+1:01:10
+
+- What is the beauty of running NodeMon instead of just node?
+1:05:00
+
+- How can we add a content-type header in our node.js server using the http module?
+1:06:20
+
+- What is the public folder used for in Server programming?
+1:07:30
 
 
+### All Together Now with more efficiency
+- What is a REST API designed to return to users?
+1:10:45
 
+- How would make the file path dynamic for our server to load index.html when no path is provided?
+1:13:10
 
+-  What is error code 'ENOENT'?
+1:17:30
 
+- What are the basic steps to make simple web server to respond to sit requests in node.js?
+1:22:00
 
+- What is the responsibility of server side development vs client side development?
+1:24:45
 
+What is heroku?
+1:25:25
 
-
-
-
+- What files do we wanna make sure we ignore when we are pushing our code to a Web hosting platform?
+1:26:45
 
