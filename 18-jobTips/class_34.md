@@ -15,14 +15,11 @@ What do we need to do once we are recommended?
 What is the bank?
 1:28:10
 
-What is the 3 answer question we should have to each behavioral question?
+What is the 3 sentence answer we should have to each behavioral question?
 What is CAR?
 1:37:50
 
 What is EUE?
-2:04:00
-
-What are CSS sprites?
 2:04:00
 
 How does the technical whiteboard coding interview work?
@@ -32,8 +29,8 @@ What do interviewers look out for in whiteboarding interviews?
 2:10:00
 
 Why is it important to have notes on the side?
-2:13:00
+2:13:30
 
-What is P.R.E.P stand for and what is it?
+What does P.R.E.P stand for and what is it?
 2:20:00
 

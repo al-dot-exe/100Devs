@@ -28,7 +28,7 @@ Why would we put an underscare before our actual property name in js?
 What's happening underneath the hood of a getter function in js?
 2:03:30
 
-What is the convention for creating private property names in js?
+What is the convention for creating getter function property names in js?
 2:05:25
 
 How would we call a method from a parent class in js?

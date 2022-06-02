@@ -3,11 +3,11 @@ Active Recall Q's from class 33 of 100 Devs
 
 Job Hunt Tips
 
-What is CAR action result stand for?
-17:00
+What is CAR stand for?
+16:30
 
 What are the 6 main pieces to getting a job?
-38:00
+38:10
 
 What is the thing that gets Leon mad on people's online presence?
 44:40
@@ -36,13 +36,24 @@ What is the hitlist?
 Who are we targeting for the hitlist?
 2:13:50
 2:24:50
+
+When targeting companies for your hitlist, why do you want to target the recruiter last?
 2:25:20
+
 
 How many people do we talk to again?!
 2:29:30
 
+What should we be doing for EACH AND EVERY PERSON ON OUR JOB HITLISTS?
+2:30:20
+
 How many high value apps?!
 2:33:00
 
-What are our premium apps?
+What does a high value app consist of?
+2:33:35
+
+How many premium apps are we creating?
+What do premium apps consist of?
 2:36:30
+
