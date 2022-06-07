@@ -1,5 +1,4 @@
 Active recall Q's class 36 of 100Devs 
-
 What is the difference between single-threaded and multi-threaded languages?
 43:20
 
@@ -27,7 +26,7 @@ What's the easiest way to implement a stack in javascript?
 What are the 4 things we get access too when running Js in the browser?
 2:02:30
 
-What are the event loop monitors in js?
+What does the event loop monitor in js?
 2:05:00
 
 What are the 4 basic steps of the javascript event loop in browser?

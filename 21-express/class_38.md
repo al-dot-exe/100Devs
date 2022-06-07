@@ -1,9 +1,9 @@
 These are the Active Recall Q's for class 38 of 100 Devs
 
-What is are javascript handed off to when running web apis?
+What is our javascript handed off to when running web apis?
 42:00
 
-What is most openly returned from web APIs?
+What is most commonly returned from web APIs?
 43:20
 
 What are the 2 most important node modules?
@@ -55,7 +55,7 @@ How do we send responses in node express?
 What is the syntax for the node express listen() method?
 2:34:00
 
-How do respond with json in node express?
+How do we respond with json in node express?
 2:37:30
 
 How can we make requests to my localhost through postman?

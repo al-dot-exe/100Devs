@@ -7,8 +7,7 @@ What does it mean for javascript to be single-threaded and synchronous?
 
 How does the browser benefit our javascript programs?
 37:20
-Stopped here
-___
+
 What are the common browser APIs and how do they help our javascript programs?
 39:00
 
