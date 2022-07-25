@@ -85,6 +85,7 @@ What are joins?
 
 What are the 4 common types of JOINs in SQL?
 1:19:40
+2:49:50
 
 What is an Inner Join in SQL?
 1:20:00
@@ -97,7 +98,6 @@ What is the Right Join in SQL?
 
 What is the Fuller Outer Join in SQL?
 1:21:40
-
 
 What is the syntax to use the Left Join feature in SQL?
 1:23:40
@@ -116,7 +116,7 @@ What is Aliasing in SQL?
 1:48:35
 
 What is the syntax for adding Aliases in SQL?
-2:02:
+2:02:00???
 
 What does the SUM() SQL function do?
 1:59:00
@@ -124,7 +124,38 @@ What does the SUM() SQL function do?
 What does the GROUP BY key phrase do in SQL?
 2:04:45
 
-STOPPED AT 2:17:00
+How would we equal to Null for a SQL query ?
+2:52:35
 
+What does the INSERT SQL command do?
+2:58:00
 
+What does the UPDATE SQL command do?
+2:58:20
 
+What does the DELETE SQL command do?
+2:59:00
+
+How can Modify statements be very dangerous?
+2:59:15
+
+What happens when run Modify statements with no WHERE clause???
+3:00:20
+
+What is a primary key in SQL tables?
+3:09:00
+
+What is the syntax for INSERT SQL statements?
+3:09:45
+
+What does the VALUES command do in SQL?
+3:13:00
+
+What is the syntax for the UPDATE SQL statement?
+3:16:40
+
+What is the primary difference between DELETE and the other table manipulation commands?
+3:31:10
+
+What is the syntax for DELETE statements in SQL?
+3:32:00
