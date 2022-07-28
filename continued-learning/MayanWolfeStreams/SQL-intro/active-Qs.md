@@ -33,7 +33,7 @@ What is a table in SQL?
 36:15
 
 What does the following SQL statement tell us? SELECT * FROM Products;
-38:05
+37:25
 
 What does the WHERE clause allow you to do in SQL select statements?
 38:40
@@ -51,10 +51,10 @@ What does the * mean in SELECT statements in SQL?
 What do the brackets do for table names in SQL?
 42:40
 
-How would we do filters exact strings in SQL using a WHERE clause?
+How would we filter exact strings in SQL using a WHERE clause?
 43:30
 
-How can filter for every column that INCLUDES a part of string in a WHERE clause?
+How can filter for every column that INCLUDES a part of a string in a WHERE clause?
 46:55
 
 How would we do and logic in SQL?
