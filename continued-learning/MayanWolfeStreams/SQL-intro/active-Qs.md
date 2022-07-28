@@ -1,5 +1,7 @@
 Active Recall Questions from MayanWolfe's stream on SQL
 
+https://www.twitch.tv/videos/1521476117
+
 What is a database?
 9:45
 
@@ -9,7 +11,7 @@ What is the difference between NOSQL vs Relational Database?
 What type of database is MongoDB?
 12:50
 
-How makes relational databases so useful?
+What makes relational databases so useful?
 14:35
 
 What is normalization?
