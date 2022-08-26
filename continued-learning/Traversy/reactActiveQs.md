@@ -149,4 +149,6 @@ Where does our global state exist?
 How do we bring in icons into our react app?
 50:30
 
+Which way do states get passed in the react.js component chain?
+Which way do actions get passed in the react.js component chain? 53:40
 
