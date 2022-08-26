@@ -137,6 +137,9 @@ What does the unique key prop warning?
 How do we use react state inside of a function component?
 43:20
 
+What does useState do? 
+43:45
+
 What does it mean for state to be immutable?
 44:30
 
@@ -146,9 +149,45 @@ How would we add newObjects to a state function in a react component?
 Where does our global state exist?
 45:15
 
+What is our app level state?
+46:00
+
+How do we destructure in react components?
+46:20
+
+Where would we see the dependencies that we have installed along with our MERN stack app?
 How do we bring in icons into our react app?
-50:30
+50:10
+
+What does redux allow us to do in our react app? 
+What can we do to get similar functionality without it?
+52:10
+
 
 Which way do states get passed in the react.js component chain?
-Which way do actions get passed in the react.js component chain? 53:40
+Which way do actions get passed in the react.js component chain? 
+53:40
 
+What method do we use to deal with our immutable state in react?
+54:40
+
+How can you turn a react front end into a full stack application?
+56:40
+
+How can we shorthand ternary operators in js?
+1:15:20
+
+What is the value of react compared to vanilla js?
+1:18:20
+
+What does npm run build do for our MERN stack application?
+1:20:00
+
+What is your build folder?
+1:20:25
+
+What is the serve node module? How do we use it? 
+1:21:00
+
+What is the command we would use to start our node serve server on port 8000?
+1:21:35

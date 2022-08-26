@@ -1,8 +1,12 @@
 import { useState } from 'react'
 import Header from './components/Header'
 import Tasks from './components/Tasks'
+import AddTask from './components/AddTask'
 
 const App = () => {
+  // our default App states
+  const [showAddTask, setShowAddTask] = useState(false)
+
   const [tasks, setTasks] = useState([
     {
       id: 1,
@@ -24,16 +28,44 @@ const App = () => {
     },
   ])
 
+  // METHODS //
+
+  // Add Task
+  const addTask = (task) => {
+    const id = Math.floor(Math.random() * 10000) + 1;
+    const newTask = { id, ...task }
+    setTasks([...tasks, newTask])
+  }
+
   // Delete Tasks
   const deleteTask = (id) => {
+    // show tasks that don't equal our click
     setTasks(tasks.filter((task) => task.id !== id))
   }
 
+  // Toggle reminder
+  const toggleReminder = id => {
+    setTasks(tasks.map((task) => {
+      return task.id === id ? { ...task, reminder: !task.reminder } : task;
+    }))
+  }
+
+  // returning jsx NOT javascript!
   return (
     <div className="container">
-      <Header />
+
+      <Header 
+        onAdd={() => setShowAddTask(!showAddTask)}
+        showAdd={showAddTask}
+        />
+      {showAddTask && <AddTask onAdd={addTask} />}
       {tasks.length > 0 ? (
-        <Tasks tasks={tasks} onDelete={deleteTask} />
+        // passing functions to these components
+        <Tasks
+          tasks={tasks}
+          onDelete={deleteTask}
+          onToggle={toggleReminder}
+        />
       ) : (
         'No Tasks To Show'
       )}
