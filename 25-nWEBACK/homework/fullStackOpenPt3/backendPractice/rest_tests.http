@@ -1,0 +1,15 @@
+GET http://localhost:3001/api/persons/2
+### 
+GET http://localhost:3001/info
+### 
+DELETE http://localhost:3001/api/persons/4
+###
+GET http://localhost:3001/api/persons/
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Al exe",
+  "number": "999-999-9999"
+}
