@@ -43,7 +43,6 @@ MongoClient.connect(`mongodb+srv://${databaseUsername}:${databasePassword}@clust
     app.get('/', (req, res) => {
       db.collection('quotes').find().toArray()
         .then(results => {
-          console.log(results);
           res.render('index.ejs', { quotes: results });
         })
         .catch(err => console.log(error));
@@ -52,7 +51,7 @@ MongoClient.connect(`mongodb+srv://${databaseUsername}:${databasePassword}@clust
     // Update
     app.put('/quotes', (req, res) => {
       quotesCollection.findOneAndUpdate(
-        { name: 'Yoda' },
+        { name: 'Hagrid' },
         {
           $set: {
             name: req.body.name,
@@ -63,16 +62,25 @@ MongoClient.connect(`mongodb+srv://${databaseUsername}:${databasePassword}@clust
           upsert: true
         }
       )
-      .then(result => {
+        .then(result => {
           res.json('Success');
-      })
-      .catch(err => console.log(err))
+        })
+        .catch(err => console.log(err))
     });
 
-    // **** Left off on DELETE requests *** //
-    // app.delete('/quotes', (req, res) => {
-    //   // stuff
-    // })
+    // Delete
+    app.delete('/quotes', (req, res) => {
+      quotesCollection.deleteOne(
+        { name: req.body.name }
+      )
+        .then(result => {
+          if (result.deletedCount === 0) {
+            return res.json('No quotes to delete');
+          }
+          res.json(`Deleted Yoda's quote`)
+        })
+        .catch(error => console.error(error));
+    })
 
     app.listen(process.env.PORT, function() {
       console.log(`listening on port ${process.env.PORT}`);
