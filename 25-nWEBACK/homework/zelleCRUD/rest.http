@@ -1,0 +1,9 @@
+GET http://localhost:3000
+###
+POST http://localhost:3000/quotes
+Content-Type: application/json
+
+{
+  "name": "Yoda",
+  "quote": "Train yourself to let go of everything you fear to lose"
+}
