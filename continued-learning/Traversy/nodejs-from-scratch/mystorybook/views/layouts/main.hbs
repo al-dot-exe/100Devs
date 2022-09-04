@@ -12,16 +12,25 @@
   </head>
   <body>
     {{> _header}}
+    {{> _add_btn}}
     <div class="conainer">
       {{{body}}}  
     </div>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
-    </script>
 
+    <!-- Compiled and minified JavaScript -->
+    <!-- Materialize -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- CK editor -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.19.1/ckeditor.js" integrity="sha512-Ooi9IbjM2SIDjQ02ENbPFuuORT8F8Rc+rowcYfLneDwKRxw1+gVVj5tciVmV/APnA/Ys+qy1MbNKK3k2EaAHcw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
     <script>
       // initiliazing materialize
-      M.Sidenav.init(document.querySelector('.sidenav'))
+      M.Sidenav.init(document.querySelector('.sidenav'));
+      M.FormSelect.init(document.querySelector('#status'));
+      CKEDITOR.replace('body', {
+        plugins: 'wysiwygarea, toolbar, basicstyles, link'
+      })
     </script>
   </body>
 </html>

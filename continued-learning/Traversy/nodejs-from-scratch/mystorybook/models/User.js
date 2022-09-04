@@ -1,3 +1,4 @@
+// Setting Schemas for MongoDB using mongoose
 const mongoose = require('mongoose');
 
 // Schema to get back User data from google

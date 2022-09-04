@@ -1,6 +1,6 @@
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
-const mongoose = require('mongoose');
-const User = require('../models/User');
+const mongoose = require('mongoose'); // lets you interact with database
+const User = require('../models/User'); // model for database
 
 // Strategy to make google authentication profile
 module.exports = passport => {
@@ -14,8 +14,6 @@ module.exports = passport => {
       async (accessToken, refreshToken, profile, cb) => {
         // saving data to the MongoDB database via mongoose
 
-        // console.log(profile); // test *** profile data
-        //
         const newUser = {
           googleId: profile.id,
           displayName: profile.displayName,
@@ -38,13 +36,13 @@ module.exports = passport => {
           console.error(err);
         }
       }
-    ))
+  ));
 
   // calling callback
   passport.serializeUser((user, cb) => {
     cb(null, user.id);
   })
-  passport.deserializeUser((user, cb) => {
-    User.findById(user.id, (err, user) => cb(err, user));
+  passport.deserializeUser((id, cb) => { // bug was here grabbing id now
+    User.findById(id, (err, user) => cb(err, user));
   })
 }
